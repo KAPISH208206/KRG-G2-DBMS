@@ -1,0 +1,11 @@
+SELECT * FROM books;
+select * from book_issue;
+select * from LIBRARY_VISITOR_USER;
+
+INSERT INTO books VALUES(150,'HARRY POTTER 2','JK ROWLING',4);
+
+DELETE FROM books
+WHERE ID=150;
+
+SELECT * FROM book_issue;
+SELECT * FROM LIBRARY_VISITOR_USER;
